@@ -1,32 +1,65 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+  <div>
+    <b-navbar type="is-primary">
+        <template slot="brand">
+            <b-navbar-item tag="a" href="/">
+                <img src="./assets/logo_v2_text.png" alt="Logo" height="100" />
+            </b-navbar-item>
+        </template>
+        <template slot="start">
+            <b-navbar-item v-for="(item, key) of items" :key="key" tag="router-link" exact-active-class="is-active" :to="item.to">
+                <span style="margin-right:8px"><b-icon :icon="item.icon"/></span>{{ item.title }}
+            </b-navbar-item>
+        </template>
+
+        <template slot="end">
+            <b-navbar-item tag="div">
+                <div class="buttons">
+                   <router-link to="Form">
+                    <div class="button is-primary is-primary is-inverted has-text-weight-bold">
+                      I got one!
+                    </div>
+                  </router-link>
+                </div>
+            </b-navbar-item>
+        </template>
+    </b-navbar>
+
+    <section class="main-content columns">
+      <div class="container column is-10">
+        <router-view />
+      </div>
+    </section>
   </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
+<script>
+export default {
+  data() {
+    return {
+      items: [
+        {
+          title: 'Home',
+          icon: 'keyboard',
+          to: '/',
+        },
+        {
+          title: 'About',
+          icon: 'information',
+          to: 'About',
+        },
+        {
+          title: 'Contact',
+          icon: 'account-box',
+          to: 'Contact',
+        },
+      ],
     }
-  }
+  },
 }
+</script>
+<style lang="scss">
+ .navbar-item {
+   outline-width: 0;
+ }
 </style>
