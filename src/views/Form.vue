@@ -285,6 +285,7 @@ export default {
   .otp-input {
     width: 40px;
     height: 55px;
+    margin: 0 4px;
   }
 }
 
@@ -295,8 +296,9 @@ export default {
   }
   .otp-input {
     font-size: 25px;
-    width: 30px;
+    width: 35px;
     height: 50px;
+    margin: 0 3px;
   }
 }
 </style>
