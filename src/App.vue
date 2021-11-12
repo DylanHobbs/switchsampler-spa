@@ -2,7 +2,10 @@
   <div>
     <b-navbar type="is-primary">
         <template slot="brand">
-            <b-navbar-item tag="a" href="/">
+            <b-navbar-item class="is-hidden-tablet" tag="a" href="/">
+                <img src="./assets/logo_v2_text.png" alt="Logo" width="300" />
+            </b-navbar-item>
+            <b-navbar-item class="is-hidden-mobile" tag="a" href="/">
                 <img src="./assets/logo_v2_text.png" alt="Logo" height="100" />
             </b-navbar-item>
         </template>

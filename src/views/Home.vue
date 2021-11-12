@@ -12,6 +12,14 @@
           <b-icon class="is-pulled-right" :icon="!props.open ? 'menu-up' : 'menu-down'"></b-icon>
         </h1>
         <br />
+        <div class="is-hidden-tablet">
+          <router-link to="Form">
+            <div class="buttons">
+              <b-button type="mb-5 is-primary" expanded>I got one!</b-button>
+            </div>
+            <!-- <div class="button mb-4 is-primary">I got one!</div> -->
+          </router-link>
+        </div>
         <p class="has-text-weight-semibold">
           This is the project page for a shareable key switch tester started by
           /u/WillingAlbatross on Reddit.
@@ -45,7 +53,7 @@
           choose to share the board if you receive one. Hell, keep it if you
           want, but I do hope that you do decide to continue to share the love.
           Check out
-          <router-link to="form">the about page</router-link> for
+          <router-link to="about">the about page</router-link>for
           more info
         </p>
       </b-collapse>
