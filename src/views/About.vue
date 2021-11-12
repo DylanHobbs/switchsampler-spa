@@ -40,7 +40,9 @@
         <br />
         <br />Failing that, another possibility is to make a [giveaway] thread
         on
-        <a href="https://reddit.com/r/mechmarket">Reddit's /r/mechmarket</a>.
+        <a
+          href="https://reddit.com/r/mechmarket"
+        >Reddit's /r/mechmarket</a>.
         <br />
         <a
           href="https://www.reddit.com/r/mechmarket/comments/hizb7n/giveaway_free_starter_mechanical_keyboard_to/"
@@ -72,7 +74,7 @@
         method.
         <br />
         <br />If you've received a package from a ghost and no code was included
-        <router-link to="Contact">contact me</router-link> and we can
+        <router-link to="Contact">contact me </router-link>and we can
         reset it.
       </p>
       <br />
@@ -95,13 +97,22 @@
 
       <p class="has-text-weight-bold">Host your own</p>
       <p class="has-text-weight-semibold">
-        You can clone the code from Gitlab from
+        You can clone the <a
+          href="https://github.com/DylanHobbs/switchsampler-spa"
+        >frontend code</a> from Github at
         <a
-          href="https://gitlab.com/dylanhobbs/switch-sampler-frontend"
-        >here</a>. It's all fairly simple stuff. Nuxt frontend and a basic Express
-        Backend backed with MySQL. If you're new to coding or just generally are
+          href="https://github.com/DylanHobbs/switchsampler-spa"
+        >here</a>. It's a Vue2 app made with VueCLI.
+        <br />The
+        <a href="https://github.com/DylanHobbs/switchsampler-api">backend code</a> 
+        can be found
+        <a href="https://github.com/DylanHobbs/switchsampler-api">here</a>. 
+        It's a very basic Laravel api.
+        <br>
+        <br>
+        If you're new to coding or just generally are
         having trouble, feel free to
-        <router-link to="Contact">contact me</router-link> if you need
+        <router-link to="Contact">contact me </router-link>if you need
         help.
       </p>
 
@@ -109,7 +120,7 @@
       <p class="has-text-weight-bold">Add it to this site</p>
       <p class="has-text-weight-semibold">
         Alternatively you can
-        <router-link to="Contact">contact me</router-link> me to add
+        <router-link to="Contact">contact me </router-link>me to add
         your keyboard to the dropdown list here. We can go through all the
         details you'll need privately.
       </p>
