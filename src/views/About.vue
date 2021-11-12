@@ -72,7 +72,7 @@
         method.
         <br />
         <br />If you've received a package from a ghost and no code was included
-        <router-link to="Contact">contact me</router-link>and we can
+        <router-link to="Contact">contact me</router-link> and we can
         reset it.
       </p>
       <br />
@@ -101,7 +101,7 @@
         >here</a>. It's all fairly simple stuff. Nuxt frontend and a basic Express
         Backend backed with MySQL. If you're new to coding or just generally are
         having trouble, feel free to
-        <router-link to="Contact">contact me</router-link>if you need
+        <router-link to="Contact">contact me</router-link> if you need
         help.
       </p>
 
@@ -109,7 +109,7 @@
       <p class="has-text-weight-bold">Add it to this site</p>
       <p class="has-text-weight-semibold">
         Alternatively you can
-        <router-link to="Contact">contact me</router-link>me to add
+        <router-link to="Contact">contact me</router-link> me to add
         your keyboard to the dropdown list here. We can go through all the
         details you'll need privately.
       </p>

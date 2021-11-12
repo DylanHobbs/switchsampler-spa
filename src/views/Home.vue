@@ -53,7 +53,7 @@
           choose to share the board if you receive one. Hell, keep it if you
           want, but I do hope that you do decide to continue to share the love.
           Check out
-          <router-link to="about">the about page</router-link>for
+          <router-link to="about">the about page</router-link> for
           more info
         </p>
       </b-collapse>
