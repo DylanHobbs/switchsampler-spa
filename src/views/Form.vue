@@ -9,7 +9,7 @@
       </p>
       <p class="has-text-weight-semibold">
         If you didn't receive a code please
-        <router-link to="Contact">contact me</router-link>and we'll get
+        <router-link to="Contact">contact me</router-link> and we'll get
         that sorted out
       </p>
       <div class="has-text-centered">
